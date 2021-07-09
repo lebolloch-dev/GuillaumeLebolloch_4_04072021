@@ -90,6 +90,25 @@ a:hover {
   right: 0;
 }
 
+.col-sm-6 a img {
+  width: 270px;
+  height: 270px;
+}
+
+@media screen and (max-width: 767px) {
+  .col-sm-6 a img {
+    width: 270px;
+    height: 270px;
+    margin: auto;
+  }
+}
+
+.col-sm-12 h3 {
+  text-transform: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
@@ -679,7 +698,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -741,6 +760,10 @@ h4 {
   color: #ffffff !important;
 }
 
+.black {
+  color: #000000 !important;
+}
+
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -773,7 +796,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #fe7b3c;
+  background-color: #f3976c;
 }
 
 .tc-white {
@@ -850,13 +873,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }

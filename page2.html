@@ -1,42 +1,27 @@
 <!DOCTYPE html>
-<html lang="Default">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Entreprise web Design basée a Lyon, qui propose des prestations de WEB DESIGN, STRATÉGIE et ILLUSTRATIONS"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/blocs.min.js"></script>
-    <script src="./js/jqBootstrapValidation.js"></script>
-    <script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <title>LA CHOUETTE AGENCE : Web Design Lyons</title>
 
     <!-- Analytics -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-201324556-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "UA-201324556-1");
-    </script>
     <!-- Analytics END -->
   </head>
   <body>
@@ -52,6 +37,7 @@
                   src="img/la-chouette-agence.png"
                   alt="atlanta web design logo"
                   height="40"
+                  width="214"
               /></a>
               <button
                 id="nav-toggle"
@@ -123,11 +109,11 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -136,7 +122,9 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504">
+                    Comment nous avez-vous connu ?
+                  </label>
                   <input
                     class="form-control"
                     type="email"
@@ -145,7 +133,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -197,28 +185,28 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="index.html" title="Twitter"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="index.html" title="Facebook"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="index.html" title="Dribbble"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a class="social" href="index.html" title="Instagram"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
@@ -233,4 +221,9 @@
     >
     <!-- Principal conteneur END -->
   </body>
+  <script src="./js/jquery-2.1.0.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/blocs.js"></script>
+  <script src="./js/jqBootstrapValidation.js"></script>
+  <script src="./js/formHandler.js"></script>
 </html>
